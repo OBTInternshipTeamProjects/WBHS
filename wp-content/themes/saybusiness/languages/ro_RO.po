@@ -1,0 +1,797 @@
+# Translation of themes in Romanian 
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-08-24 21:17+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"X-Generator: Poedit 2.0.1\n"
+"Language: ro\n"
+"Project-Id-Version: SayBusiness\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#. Name of the theme
+msgid "SayBusiness"
+msgstr "SayBusiness"
+
+#. Description of the theme
+msgid "SayBusiness is a fully responsive and customizable WordPress theme designed for any type of business. This theme makes your website to look awesome. It has Bootstrap grid for a harmonious fluid and retina ready."
+msgstr "SayBusiness este o temă WordPress complet receptivă proiectată și personalizată pentru orice tip de afacere. Această temă face site-ul dumneavoastră să arate minunat. Ea are grila Bootstrap pentru o scalare armonioasă și afișare optimă."
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:184 template-parts/content.php:28
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Continuă lectura<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#. translators: %s: Name of current post
+#: image.php:84 template-parts/content-page.php:37
+#: template-parts/content-search.php:28 template-parts/content-search.php:43
+#: template-parts/content-single.php:45 template-parts/content.php:49
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Editează<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Un gând despre &ldquo;%s&rdquo;"
+
+#: searchform.php:16
+msgid "Search"
+msgstr "Căutare"
+
+#: searchform.php:14
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Caută &hellip;"
+
+#: searchform.php:13
+msgid "Search for:"
+msgstr "Caută:"
+
+#: footer.php:28
+msgid "Footer Social links Menu"
+msgstr "Meniu legături sociale subsol"
+
+#: footer.php:17
+msgid "Footer Primary Menu"
+msgstr "Meniu principal subsol"
+
+#: functions.php:158
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Adaugă piese aici pentru a apărea în bara ta laterală."
+
+#: template-parts/content.php:14
+msgid "Featured"
+msgstr "Reprezentativ"
+
+#: template-parts/content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Se pare că n-am putut găsi conținutul căutat. Probabil o căutare poate ajuta."
+
+#: template-parts/content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Regret, dar nimic nu s-a potrivit termenilor căutați. Te rog încearcă din nou cu unii termeni diferiți."
+
+#: template-parts/content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ești gata să publici primul tău articol? <a href=\"%1$s\">Începe de aici</a>."
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Nu a fost găsit nimic"
+
+#: template-parts/biography.php:33
+msgid "View all posts by %s"
+msgstr "Vezi toate articolele de %s"
+
+#: template-parts/biography.php:28
+msgid "Author:"
+msgstr "Autor:"
+
+#: single.php:38
+msgid "Previous post:"
+msgstr "Articolul anterior:"
+
+#: single.php:37
+msgid "Previous"
+msgstr "Precedent"
+
+#: single.php:35
+msgid "Next post:"
+msgstr "Articolul următor:"
+
+#: single.php:34
+msgid "Next"
+msgstr "Următor"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Rezultatele căutării pentru: %s"
+
+#: inc/template-tags.php:106
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Etichete"
+
+#: inc/template-tags.php:98
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Categorii"
+
+#: inc/template-tags.php:95 inc/template-tags.php:103
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:79
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Publicat pe"
+
+#: inc/template-tags.php:38
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Format"
+
+#: inc/template-tags.php:50
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Lasă un comentariu<span class=\"screen-reader-text\"> despre %s</span>"
+
+#: inc/template-tags.php:25
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Autor"
+
+#: inc/customizer.php:172
+msgid "Text Color"
+msgstr "Culoare text"
+
+#: inc/customizer.php:160
+msgid "Link Color"
+msgstr "Culoare legătură"
+
+#: inc/customizer.php:145
+msgid "Background Color"
+msgstr "Culoare fundal"
+
+#: image.php:102 single.php:29
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Publicat în</span><span class=\"post-title\">%title</span>"
+
+#: inc/back-compat.php:41 inc/back-compat.php:53 inc/back-compat.php:68
+msgid "SayBusiness requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again."
+msgstr "SayBusiness necesită măcar WordPress versiunea 4.3. Tu rulezi versiunea %s. Te rog actualizează și încearcă din nou."
+
+#: image.php:73
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Mărime întreagă"
+
+#: image.php:56 template-parts/content-page.php:23
+#: template-parts/content-single.php:25 template-parts/content.php:33
+msgid "Pages:"
+msgstr "Pagini:"
+
+#: image.php:25
+msgid "Next Image"
+msgstr "Imaginea următoare"
+
+#: image.php:24
+msgid "Previous Image"
+msgstr "Imaginea precedentă"
+
+#: header.php:47
+msgid "Menu"
+msgstr "Meniu"
+
+#: header.php:27
+msgid "Skip to content"
+msgstr "Sari la conținut"
+
+#: functions.php:71
+msgid "Blog Sidebar"
+msgstr "Bară laterală pentru blog"
+
+#: functions.php:80
+msgid "Home Page"
+msgstr "Prima Pagină"
+
+#: functions.php:82
+msgid "Build your Homepage with widgets"
+msgstr "Construiți prima pagină cu piese"
+
+#: functions.php:89
+msgid "Shop Sidebar"
+msgstr "Bară laterală pentru magazin"
+
+#: functions.php:98
+msgid "Contact Page Sidebar"
+msgstr "Bară laterală pentru pagina contact"
+
+#: functions.php:107
+msgid "Multi language (header)"
+msgstr "Multi lingvistic (antet)"
+
+#: functions.php:107
+msgid "Add here the multi-language switcher widget"
+msgstr "Adăugați aici piesa schimbător de limbă"
+
+#: functions.php:89 header.php:62
+msgid "Social links Menu"
+msgstr "Meniu legături sociale"
+
+#: functions.php:88 header.php:51
+msgid "Primary Menu"
+msgstr "Meniu principal"
+
+#: footer.php:51
+msgid "Proudly powered by %s"
+msgstr "Propulsat cu mândrie de %s"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Comentariile sunt închise."
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s gând despre &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s gânduri despre &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s de gânduri despre &ldquo;%2$s&rdquo;"
+
+#: archive.php:51 image.php:60 index.php:48 search.php:39
+#: template-parts/content-page.php:27 template-parts/content-single.php:29
+#: template-parts/content.php:37
+msgid "Page"
+msgstr "Pagină"
+
+#: archive.php:50 index.php:47 search.php:38
+msgid "Next page"
+msgstr "Pagina următoare"
+
+#: archive.php:49 index.php:46 search.php:37
+msgid "Previous page"
+msgstr "Pagina precedentă"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Se pare că nu se găsește nimic la această adresă. Poate încerci o căutare?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hopa! Acea pagină nu poate fi găsită."
+
+#. Author URI of the theme
+#: footer.php:51
+msgid "https://wordpress.org/"
+msgstr "https://ro.wordpress.org/"
+
+#: inc/metabox.php:28,94
+msgid "Add icon"
+msgstr "Adăugare pictogramă"
+
+#: inc/metabox.php:68,134,200,336,401
+msgid "Example"
+msgstr "Exemplu"
+
+#: inc/metabox.php:68,134,200,336,401
+msgid "Full list of icons"
+msgstr "Lista completă de pictograme"
+
+#: inc/metabox.php:70
+msgid "If you add a featured image it will override this icon"
+msgstr "Dacă adăugați o imagine reprezentativă aceasta va fi afișată în locul pictogramei"
+
+#: inc/metabox.php:160,271,491
+msgid "Website"
+msgstr "Site web"
+
+#: inc/metabox.php:226,362,427
+msgid "Details"
+msgstr "Detalii"
+
+#: inc/metabox.php:269
+msgid "Position in company"
+msgstr "Poziția în companie"
+
+#: inc/metabox.php:297
+msgid "Milestone"
+msgstr "Punct de referință"
+
+#: inc/metabox.php:336
+msgid "Write the business plan"
+msgstr "Elaborare plan de afaceri"
+
+#: inc/metabox.php:481
+msgid "Client"
+msgstr "Client"
+
+#: inc/metabox.php:475
+msgid "Address"
+msgstr "Adresa"
+
+#: inc/metabox.php:477
+msgid "Phone"
+msgstr "Telefon"
+
+#: inc/metabox.php:479
+msgid "Fax"
+msgstr "Fax"
+
+#: inc/metabox.php:481
+msgid "Email"
+msgstr "Email"
+
+#: inc/page-template.php:38
+msgid "Page Template"
+msgstr "Șablon pagină"
+
+#: inc/theme-manager.php:31
+msgid "About the theme"
+msgstr "Despre temă"
+
+#: inc/theme-manager.php:34
+msgid "Supported plugins"
+msgstr "Module compatibile"
+
+#: inc/theme-manager.php:37
+msgid "Contact us"
+msgstr "Contactați-ne"
+
+#: inc/theme-manager.php:38
+msgid "Upgrade PRO"
+msgstr "Conținut demonstrativ"
+
+#: inc/theme-manager.php:44
+msgid "All you have to do is"
+msgstr "Tot ce trebuie să faceți este"
+
+#: inc/theme-manager.php:46
+msgid "Write some good content"
+msgstr "Scrieți conținut de calitate"
+
+#: inc/theme-manager.php:47
+msgid "Build the Home Page with widgets in Apperarance -> Widgets -> Home Page"
+msgstr "Construiți Prima Pagină cu piese în Aspect -> Piese -> Prima Pagină"
+
+#: inc/theme-manager.php:48
+msgid "Use page templates"
+msgstr "Utilizați șaboane pentru pagini"
+
+#: inc/theme-manager.php:49
+msgid "Build the menus (Primary Menu and Social links Menu)"
+msgstr "Construiți meniurile (Meniu principal și Meniu legături sociale)"
+
+#: inc/theme-manager.php:50
+msgid "Install supported plugins, if you need"
+msgstr "Instalați modulele compatibile, dacă aveți nevoie"
+
+#: inc/theme-manager.php:51
+msgid "Activate your website for search engines indexing in Settings -> Reading"
+msgstr "Activați site-ul pentru indexare în motoarele de căutare în Setări -> Afișare"
+
+#: inc/theme-manager.php:54
+msgid "Or upload the demo content available for free"
+msgstr "Sau importați conținutul demonstrativ disponibil gratuit"
+
+#: inc/theme-manager.php:57
+msgid "The theme is fully compatible with this following free plugins"
+msgstr "Această temă este compatibilă cu următoarele module gratuite"
+
+#: inc/theme-manager.php:68
+msgid "If you have any problem with this theme don't hesitate to write us at"
+msgstr "Dacă întîmpinați orice dificultate nu ezitați să ne scrieți la"
+
+#: inc/theme-manager.php:58
+msgid "Buy PRO version for 49 &euro; / year"
+msgstr "Achiziționați versiunea PRO pentru 49 &euro; / an"
+
+#: inc/theme-manager.php:58
+msgid "Check demo at:"
+msgstr "Consultați varianta demonstrativă la adresa:"
+
+#: inc/theme-manager.php:58
+msgid "PRO version features / services:"
+msgstr "Facilitățile / serviciile oferite la versiunea PRO"
+
+#: inc/theme-manager.php:58
+msgid "Custom post type"
+msgstr "Tip de postări particularizate"
+
+#: inc/theme-manager.php:58
+msgid "8 custom post type (services, team, values, counters, timeline, partners, testimonials, portfolio) easy to use"
+msgstr "tipuri de postări particularizate (servicii, echipa, valori, contoare, cronologie, parteneri, testimoniale, portofoliu) ușor de folosit"
+
+#: inc/theme-manager.php:58
+msgid "Page templates for every custom post type"
+msgstr "Pagini șablon pentru fiecare tip de postare particularizată"
+
+#: inc/theme-manager.php:58
+msgid "Widgets for every custom post type to build pages with sections"
+msgstr "Piese pentru fiecare tip de postare particularizată pentru a construi pagini cu secțiuni"
+
+#: inc/theme-manager.php:58
+msgid "Demo content"
+msgstr "Conținut demonstrativ"
+
+#: inc/theme-manager.php:58
+msgid "Demo content (.xml file). All you have to do is to navigate in Tools section from dashboard -> import -> WordPress (importer), the last one. After than run the importer and browse for the xml file in your computer."
+msgstr "Conținut demonstrativ (fișier .xml). Tot ce trebuie să faceți este să navigați în secțiunea Instrumente din tabloul de bord -> import -> WordPress (importator), ultimul. Apoi executați importatorul și căutați fișierul xml din computer."
+
+#: inc/theme-manager.php:58
+msgid "Technical support"
+msgstr "Suport tehnic"
+
+#: inc/theme-manager.php:58
+msgid "You will receive have acces to our forum for tehnical support"
+msgstr "Veți primi acces la forumul nostru pentru asistență tehnică"
+
+#: inc/theme-manager.php:58
+msgid "Updates"
+msgstr "Actualizări"
+
+#: inc/theme-manager.php:58
+msgid "You will have acces to theme updates. The theme will be compatible with all next versions of WordPress."
+msgstr "Veți avea acces la actualizările temei. Aceasta va fi compatibilă cu toate versiunile următoare ale WordPress."
+
+#: inc/theme-manager.php:80
+msgid "Don't forget to rate us on "
+msgstr "Nu uitați să ne evaluați pe "
+
+#: inc/theme-manager.php:81
+msgid "Thank you!"
+msgstr "Vă mulțumim!"
+
+#: inc/theme-manager.php:91
+msgid "About theme"
+msgstr "Despre temă"
+
+#: inc/theme-manager.php:92 inc/theme-manager.php:93
+msgid "Documentation"
+msgstr "Documentație"
+
+#: inc/theme-manager.php:93
+msgid "Support"
+msgstr "Asistență"
+
+#: inc/post-type.php:12,13,15,19
+msgid "Service"
+msgstr "Serviciu"
+
+#: inc/post-type.php:14
+msgid "Services"
+msgstr "Servicii"
+
+#: inc/post-type.php:16
+msgid "A custom post type"
+msgstr "Un tip de postare personalizată"
+
+#: inc/post-type.php:47,49
+msgid "Value"
+msgstr "Valoare"
+
+#: inc/post-type.php:46,53
+msgid "Values"
+msgstr "Valori"
+
+#: inc/post-type.php:80,82,87
+msgid "Team"
+msgstr "Echipa"
+
+#: inc/post-type.php:81,83
+msgid "Member"
+msgstr "Membru"
+
+#: inc/post-type.php:115,117
+msgid "Partner"
+msgstr "Partener"
+
+#: inc/post-type.php:114,116,121
+msgid "Partners"
+msgstr "Parteneri"
+
+#: inc/post-type.php:148,150,155
+msgid "Timeline"
+msgstr "Cronologie"
+
+#: inc/post-type.php:183,185
+msgid "Counter"
+msgstr "Contor"
+
+#: inc/post-type.php:182,184,189
+msgid "Counters"
+msgstr "Contoare"
+
+#: inc/post-type.php:217,219
+msgid "Testimonial"
+msgstr "Recomandare"
+
+#: inc/post-type.php:216,218,223
+msgid "Testimonials"
+msgstr "Recomandări"
+
+#: inc/post-type.php:267,269
+msgid "Slide"
+msgstr "Dispozitiv"
+
+#: inc/post-type.php:266,268,273
+msgid "Slides"
+msgstr "Dispozitive"
+
+#: inc/post-type.php:317,319
+msgid "Folder"
+msgstr "Pliant"
+
+#: inc/post-type.php:316,318,323
+msgid "Portfolio"
+msgstr "Portofoliu"
+
+#: widgets/contact.php:11
+msgid "Shows contact details and Google Maps embed code"
+msgstr "Afișează datele de contact și harta Google"
+
+#: widgets/contact.php:12
+msgid "Home Page Builder: Contact"
+msgstr "Constructor Pagina Principală: Contact"
+
+#: widgets/contact.php:33
+msgid "In order to display this widget, you must fill the following fields"
+msgstr "Pentru a afișa această piesă completați câmpurile de mai jos"
+
+#: widgets/contact.php:45
+msgid "Street and number"
+msgstr "Strada și numărul"
+
+#: widgets/contact.php:45
+msgid "Locality"
+msgstr "Localitatea"
+
+#: widgets/contact.php:47
+msgid "Region"
+msgstr "Județ"
+
+#: widgets/contact.php:47
+msgid "Postal code"
+msgstr "Cod poștal"
+
+#: widgets/contact.php:47
+msgid "Opening hours"
+msgstr "Program de lucru"
+
+#: widgets/contact.php:47
+msgid "Paste here the iframe code of your Google location"
+msgstr "Copiați aici codul iframe al locației dvs. din Google"
+
+#: widgets/contact.php:47
+msgid "Add 100% to the height and width attributes in the iframe code"
+msgstr "Adăugați 100% la atributele înălțime și lățime în codul iframe"
+
+#: widgets/counters.php:11
+msgid "Shows the counters"
+msgstr "Afișează contoarele"
+
+#: widgets/counters.php:12
+msgid "Home Page Builder: Counters"
+msgstr "Constructor Pagina Principală: Contoare"
+
+#: widgets/counters.php:22 #: widgets/team.php:53 widgets/services.php:27
+#: widgets/slider.php:21
+msgid "In order to display this widget, you must first add some content on the appropriate section"
+msgstr "Pentru a afișa această piesă trebui să adăgați mai întâi conținut în secțiunea corespunzătoare"
+
+#: widgets/counters.php:24
+msgid "Select the page to which it was assigned Counters Page Template"
+msgstr "Selectați pagina căruia i-a fost atribuit șablonul contoare"
+
+#: widgets/counters.php:30 #: widgets/partners.php:59 widgets/portofolio.php:39
+#: widgets/services.php:37
+msgid "Choose the number of columns to show"
+msgstr "Alegeți numărul de coloane pentru afișare"
+
+#: widgets/counters.php:20
+msgid "Shows the team"
+msgstr "Afișează echipa"
+
+#: widgets/counters.php:21
+msgid "Home Page Builder: Team"
+msgstr "Constructor Pagina Principală: Echipa"
+
+#: widgets/team.php:55
+msgid "Select the page to which it was assigned Team Page Template"
+msgstr "Selectați pagina căruia i-a fost atribuit șablonul echipă"
+
+#: widgets/team.php:61 #: widgets/partners.php:32 widgets/portofolio.php:37
+#: widgets/services.php:35 widgets/values.php:35
+msgid "Number of posts to show (-1 to show all of them)"
+msgstr "Numărul articolelor de afișat (-1 pentru a-i afișa pe toți)"
+
+#: widgets/team.php:71
+msgid "Button text"
+msgstr "Text-ul din buton"
+
+#: widgets/team.php:72 #: widgets/portfolio.php:151
+msgid "Show all"
+msgstr "Afișare totală"
+
+#: widgets/team.php:73
+msgid "The button will be displayed if number of posts from section is greather than number of posts to show"
+msgstr "Afișează butonul dacă numărul articolelor din secțiune este mai mare decât numărul articolelor de afișat"
+
+#: widgets/team.php:78
+msgid "Title Color"
+msgstr "Culoare titlu"
+
+#: widgets/team.php:105
+msgid "Background Image"
+msgstr "Imagine fundal"
+
+#: widgets/partners.php:20
+msgid "Shows the partners"
+msgstr "Afișează partenerii"
+
+#: widgets/partners.php:21
+msgid "Home Page Builder: Partners"
+msgstr "Constructor Pagina Principală: Parteneri"
+
+#: widgets/partners.php:26
+msgid "Select the page to which it was assigned Partners Page Template"
+msgstr "Selectați pagina căruia i-a fost atribuit șablonul parteneri"
+
+#: widgets/portfolio.php:11
+msgid "Shows the portfolio"
+msgstr "Afișează portofoliul"
+
+#: widgets/portfolio:12
+msgid "Home Page Builder: Portfolio"
+msgstr "Constructor Pagina Principală: Portofoliu"
+
+#: widgets/portfolio.php:26
+msgid "Select the page to which it was assigned Portfolio Page Template"
+msgstr "Selectați pagina căruia i-a fost atribuit șablonul portofoliu"
+
+#: widgets/partners.php:35 #: widgets/team.php:57 widgets/counters.php:29
+msgid "Fill meta description (in page edit) to show some text after the section title"
+msgstr "Completați câmpul meta-descriere (în editare pagină) pentru a afișa text sub titlul secțiunii"
+
+#: widgets/portfolio.php:46 #: widgets/services.php:44
+msgid "Enable links?"
+msgstr "Activați hiperlegături?"
+
+#: widgets/partners.php:11
+msgid "Shows the services"
+msgstr "Afișează serviciile"
+
+#: widgets/partners.php:12
+msgid "Home Page Builder: Services"
+msgstr "Constructor Pagina Principală: Servicii"
+
+#: widgets/services.php:29
+msgid "Select the page to which it was assigned Services Page Template"
+msgstr "Selectați pagina căruia i-a fost atribuit șablonul servicii"
+
+#: widgets/services.php:35
+msgid "If you set the featured image to the selected page, that image it will shown as section background"
+msgstr "Dacă setați imaginea reprezentativă în pagina selectată, acea imagine va fi afișată ca fundal secțiune"
+
+#: widgets/testimonials.php:11
+msgid "Shows the testimonials"
+msgstr "Afișează testimonialele"
+
+#: widgets/testimonials.php:12
+msgid "Home Page Builder: Testimonials"
+msgstr "Constructor Pagina Principală: Testimoniale"
+
+#: widgets/testimonials.php:26
+msgid "Select the page to which it was assigned Testimonials Page Template"
+msgstr "Selectați pagina căruia i-a fost atribuit șablonul testimoniale"
+
+#: widgets/timeline.php:11
+msgid "Shows the timeline"
+msgstr "Afișează cronologia"
+
+#: widgets/timeline.php:12
+msgid "Home Page Builder: Timeline"
+msgstr "Constructor Pagina Principală: Cronologie"
+
+#: widgets/timeline.php:25
+msgid "Select the page to which it was assigned Timeline Page Template"
+msgstr "Selectați pagina căruia i-a fost atribuit șablonul cronologie"
+
+#: widgets/values.php:11
+msgid "Shows the values"
+msgstr "Afișează valorile"
+
+#: widgets/values.php:12
+msgid "Home Page Builder: Values"
+msgstr "Constructor Pagina Principală: Valori"
+
+#: widgets/values.php:25
+msgid "Select the page to which it was assigned Values Page Template"
+msgstr "Selectați pagina căruia i-a fost atribuit șablonul valori"
+
+#: widgets/page.php:19
+msgid "Shows a page content"
+msgstr "Afișează conținutul unei pagini"
+
+#: widgets/page.php:20
+msgid "Home Page Builder: Call-to-action"
+msgstr "Constructor Pagina Principală: Apel-la-acțiune"
+
+#: widgets/page.php:50
+msgid "Select the page to show"
+msgstr "Selectați pagina pe care doriți să o afișati"
+
+#: widgets/page.php:169
+msgid "Read more"
+msgstr "Citiți mai mult"
+
+#: woocommerce/single-product-reviews.php:31
+msgid "There are no reviews yet"
+msgstr "Nu există recenzii deocamdată"
+
+#: woocommerce/single-product-reviews.php:43
+msgid "Add a review"
+msgstr "Adaugă un comentariu"
+
+#: woocommerce/single-product-reviews.php:43
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Fii primul care scrie un comentariu &ldquo;%s&rdquo;"
+
+#: woocommerce/single-product-reviews.php:44
+msgid "Leave a Reply to %s"
+msgstr "Lasă un răspuns pentru %s"
+
+#: woocommerce/single-product-reviews.php:48
+msgid "Name*"
+msgstr "Nume*"
+
+#: woocommerce/single-product-reviews.php:49
+msgid "E-mail*"
+msgstr "E-mail*"
+
+#: woocommerce/single-product-reviews.php:51
+msgid "Submit"
+msgstr "Trimite"
+
+#: woocommerce/single-product-reviews.php:56
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr "Trebuie să fi <a href=\"%s\">autentificat </a> pentru a posta o recenzie."
+
+#: woocommerce/single-product-reviews.php:59,68
+msgid "Your Rating"
+msgstr "Aprecierea dvs."
+
+#: woocommerce/single-product-reviews.php:60
+msgid "Rate&hellip;"
+msgstr "Apreciere&hellip;"
+
+#: woocommerce/single-product-reviews.php:61
+msgid "Perfect"
+msgstr "Perfect"
+
+#: woocommerce/single-product-reviews.php:62
+msgid "Good"
+msgstr "Bun"
+
+#: woocommerce/single-product-reviews.php:63
+msgid "Average"
+msgstr "Potrivit"
+
+#: woocommerce/single-product-reviews.php:64
+msgid "Not that bad"
+msgstr "Nu e chiar asa de rău"
+
+#: woocommerce/single-product-reviews.php:65
+msgid "Very poor"
+msgstr "Foarte rău"
+
+#: woocommerce/single-product-reviews.php:111
+msgid "Only logged in customers who have purchased this product may leave a review"
+msgstr "Numai clienți autentificați care au cumpărat acest produs pot scrie o recenzie"

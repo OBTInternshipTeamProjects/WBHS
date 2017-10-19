@@ -1,0 +1,800 @@
+# Translation of theme in French (France) 
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-08-24 21:17+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Poedit 2.0.1\n"
+"Language: fr\n"
+"Project-Id-Version: SayBusiness\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#. Name of the theme
+msgid "SayBusiness"
+msgstr "SayBusiness"
+
+#. Description of the theme
+msgid "SayBusiness is a fully responsive and customizable WordPress theme designed for any type of business. This theme makes your website to look awesome. It has Bootstrap grid for a harmonious fluid and retina ready."
+msgstr "SayBusiness est un thème entièrement adapté et personnalisable WordPress conçu pour tout type d'entreprise. Ce thème rend votre site Web pour regarder awesome. Il a Bootstrap grille pour un fluide harmonieux et la rétine prêt."
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:184 template-parts/content.php:28
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Continuer la lecture<span class=\"screen-reader-text\"> de &laquo;&nbsp;%s&nbsp;&raquo;</span>"
+
+#. translators: %s: Name of current post
+#: image.php:84 template-parts/content-page.php:37
+#: template-parts/content-search.php:28 template-parts/content-search.php:43
+#: template-parts/content-single.php:45 template-parts/content.php:49
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Modifier<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Une pensée sur &ldquo;%s&rdquo;"
+
+#: searchform.php:16
+msgid "Search"
+msgstr "Recherche"
+
+#: searchform.php:14
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Recherche&hellip;"
+
+#: searchform.php:13
+msgid "Search for:"
+msgstr "Recherche pour :"
+
+#: footer.php:28
+msgid "Footer Social links Menu"
+msgstr "Menu de liens sociaux de pied"
+
+#: footer.php:17
+msgid "Footer Primary Menu"
+msgstr "Menu principal de pied"
+
+#: functions.php:158
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Ajoutez des widgets ici pour les faire apparaître dans votre barre latérale."
+
+#: template-parts/content.php:14
+msgid "Featured"
+msgstr "Mise en avant"
+
+#: template-parts/content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Il semble que ce que vous cherchez est introuvable. Essayez avec une recherche."
+
+#: template-parts/content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Désolé, mais rien ne correspond à votre recherche. Veuillez réessayer avec des mots différents."
+
+#: template-parts/content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Prêt(e) à publier votre premier article&nbsp;? <a href=\"%1$s\">Lancez-vous ici</a>."
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Aucun résultat"
+
+#: template-parts/biography.php:33
+msgid "View all posts by %s"
+msgstr "Afficher tous les articles par %s"
+
+#: template-parts/biography.php:28
+msgid "Author:"
+msgstr "Auteur&nbsp;:"
+
+#: single.php:38
+msgid "Previous post:"
+msgstr "Article précédent&nbsp;:"
+
+#: single.php:37
+msgid "Previous"
+msgstr "Précédent"
+
+#: single.php:35
+msgid "Next post:"
+msgstr "Article suivant&nbsp;:"
+
+#: single.php:34
+msgid "Next"
+msgstr "Suivant"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour&nbsp;: %s"
+
+#: inc/template-tags.php:106
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Étiquettes"
+
+#: inc/template-tags.php:98
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Catégories"
+
+#: inc/template-tags.php:95 inc/template-tags.php:103
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:79
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Publié le"
+
+#: inc/template-tags.php:38
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Format"
+
+#: inc/template-tags.php:50
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Laisser un commentaire<span class=\"screen-reader-text\"> sur %s</span>"
+
+#: inc/template-tags.php:25
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Auteur"
+
+#: inc/customizer.php:172
+msgid "Text Color"
+msgstr "Couleur du texte principal"
+
+#: inc/customizer.php:160
+msgid "Link Color"
+msgstr "Couleur des liens"
+
+#: inc/customizer.php:145
+msgid "Background Color"
+msgstr "Couleur du fond"
+
+#: image.php:102 single.php:29
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Publié dans</span><span class=\"post-title\">%title</span>"
+
+#: inc/back-compat.php:41 inc/back-compat.php:53 inc/back-compat.php:68
+msgid "SayBusiness requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again."
+msgstr "SayBusiness ne fonctionne qu'à partir de WordPress 4.4. Vous utilisez la version %s. Veuillez mettre à jour et réessayer. "
+
+#: inc/customizer.php:130
+msgid "Base Color Scheme"
+msgstr "Jeu de couleurs de base"
+
+#: image.php:73
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Taille réelle"
+
+#: image.php:56 template-parts/content-page.php:23
+#: template-parts/content-single.php:25 template-parts/content.php:33
+msgid "Pages:"
+msgstr "Pages&nbsp;:"
+
+#: image.php:25
+msgid "Next Image"
+msgstr "Image suivante"
+
+#: image.php:24
+msgid "Previous Image"
+msgstr "Image précédente"
+
+#: header.php:47
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:27
+msgid "Skip to content"
+msgstr "Aller au contenu principal"
+
+#: functions.php:156
+msgid "Blog Sidebar"
+msgstr "Barre latérale de blog"
+
+#: functions.php:80
+msgid "Home Page"
+msgstr "Page d'accueil"
+
+#: functions.php:82
+msgid "Build your Homepage with widgets"
+msgstr "Créez votre page d'accueil avec des widgets"
+
+#: functions.php:89
+msgid "Shop Sidebar"
+msgstr "Barre latérale de botique"
+
+#: functions.php:98
+msgid "Contact Page Sidebar"
+msgstr "Barre latérale dans le page de contact"
+
+#: functions.php:107
+msgid "Multi language (header)"
+msgstr "Multi langue (en-tête)"
+
+#: functions.php:109
+msgid "Add here the multi-language switcher widget"
+msgstr "Ajoutez ici le widget multi-language switcher"
+
+#: functions.php:89 header.php:62
+msgid "Social links Menu"
+msgstr "Menu des liens de réseaux sociaux"
+
+#: functions.php:88 header.php:51
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: footer.php:51
+msgid "Proudly powered by %s"
+msgstr "Fièrement propulsé par %s"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s pensée sur &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensée sur &ldquo;%2$s&rdquo;"
+
+#: archive.php:51 image.php:60 index.php:48 search.php:39
+#: template-parts/content-page.php:27 template-parts/content-single.php:29
+#: template-parts/content.php:37
+msgid "Page"
+msgstr "Page"
+
+#: archive.php:50 index.php:47 search.php:38
+msgid "Next page"
+msgstr "Page suivante"
+
+#: archive.php:49 index.php:46 search.php:37
+msgid "Previous page"
+msgstr "Page précédente"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Apparemment, rien n&rsquo;a été trouvé à cette adresse. Essayez avec une recherche&nbsp;?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oups&nbsp;! Cette page est introuvable."
+
+#. Author URI of the theme
+#: footer.php:51
+msgid "https://wordpress.org/"
+msgstr "https://fr.wordpress.org/"
+
+#: inc/metabox.php:28,94
+msgid "Add icon"
+msgstr "Ajouter une icône"
+
+#: inc/metabox.php:68,134,200,336,401
+msgid "Example"
+msgstr "Exemple"
+
+#: inc/metabox.php:68,134,200,336,401
+msgid "Full list of icons"
+msgstr "Liste complète des icônes"
+
+#: inc/metabox.php:70
+msgid "If you add a featured image it will override this icon"
+msgstr "Si vous ajoutez une image en vedette, elle remplacera cette icône"
+
+#: inc/metabox.php:160,271,491
+msgid "Website"
+msgstr "Site Internet"
+
+#: inc/metabox.php:226,362,427
+msgid "Details"
+msgstr "Détails"
+
+#: inc/metabox.php:269
+msgid "Position in company"
+msgstr "Poste dans la société"
+
+#: inc/metabox.php:297
+msgid "Milestone"
+msgstr "Étape importante"
+
+#: inc/metabox.php:336
+msgid "Write the business plan"
+msgstr "Rédiger le plan d'affaires"
+
+#: inc/metabox.php:481
+msgid "Client"
+msgstr "Client"
+
+#: inc/metabox.php:475
+msgid "Address"
+msgstr "Adresse"
+
+#: inc/metabox.php:477
+msgid "Phone"
+msgstr "Téléphone"
+
+#: inc/metabox.php:479
+msgid "Fax"
+msgstr "Fax"
+
+#: inc/metabox.php:481
+msgid "Email"
+msgstr "Email"
+
+#: inc/page-template.php:38
+msgid "Page Template"
+msgstr "Modèle de page"
+
+#: inc/theme-manager.php:31
+msgid "About the theme"
+msgstr "À propos du thème"
+
+#: inc/theme-manager.php:34
+msgid "Supported plugins"
+msgstr "Plugins pris en charge"
+
+#: inc/theme-manager.php:37
+msgid "Contact us"
+msgstr "Contactez nous"
+
+#: inc/theme-manager.php:38
+msgid "Upgrade PRO"
+msgstr "Contenu de démonstration"
+
+#: inc/theme-manager.php:44
+msgid "All you have to do is"
+msgstr "Tout ce que vous avez à faire est"
+
+#: inc/theme-manager.php:46
+msgid "Write some good content"
+msgstr "Ecrire un bon contenu"
+
+#: inc/theme-manager.php:47
+msgid "Build the Home Page with widgets in Apperarance -> Widgets -> Home Page"
+msgstr "Construisez la page d'accueil avec les widgets dans Apparence -> Widgets -> Page d'accueil"
+
+#: inc/theme-manager.php:48
+msgid "Use page templates"
+msgstr "Utiliser des modèles de page"
+
+#: inc/theme-manager.php:49
+msgid "Build the menus (Primary Menu and Social links Menu)"
+msgstr "Créez les menus (Menu principal et Menu Liens sociaux)"
+
+#: inc/theme-manager.php:50
+msgid "Install supported plugins, if you need"
+msgstr "Installez les plugins compatibles, si vous avez besoin"
+
+#: inc/theme-manager.php:51
+msgid "Activate your website for search engines indexing in Settings -> Reading"
+msgstr "Activer votre site Web pour les moteurs de recherche d'indexation dans les Paramètres -> Lecture"
+
+#: inc/theme-manager.php:54
+msgid "Or upload the demo content available for free"
+msgstr "Ou télécharger le contenu de démonstration disponible gratuitement"
+
+#: inc/theme-manager.php:57
+msgid "The theme is fully compatible with this following free plugins"
+msgstr "Le thème est entièrement compatible avec les plugins suivants"
+
+#: inc/theme-manager.php:68
+msgid "If you have any problem with this theme don't hesitate to write us at"
+msgstr "Si vous avez un problème avec ce thème n'hésitez pas à nous écrire à"
+
+#: inc/theme-manager.php:58
+msgid "Buy PRO version for 49 &euro; / year"
+msgstr "Acheter la version PRO pour 49 euros; / an"
+
+#: inc/theme-manager.php:58
+msgid "Check demo at:"
+msgstr "Vérifiez la démo à:"
+
+#: inc/theme-manager.php:58
+msgid "PRO version features / services:"
+msgstr "Fonctionnalités / services de la version PRO:"
+
+#: inc/theme-manager.php:58
+msgid "Custom post type"
+msgstr "Type de poste personnalisé"
+
+#: inc/theme-manager.php:58
+msgid "8 custom post type (services, team, values, counters, timeline, partners, testimonials, portfolio) easy to use"
+msgstr "8 type de poste personnalisé (services, équipe, valeurs, compteurs, calendrier, partenaires, témoignages, portefeuille) facile à utiliser"
+
+#: inc/theme-manager.php:58
+msgid "Page templates for every custom post type"
+msgstr "Modèles de page pour chaque type de poste personnalisé"
+
+#: inc/theme-manager.php:58
+msgid "Widgets for every custom post type to build pages with sections"
+msgstr "Widgets pour chaque type de publication personnalisé pour créer des pages avec des sections"
+
+#: inc/theme-manager.php:58
+msgid "Demo content"
+msgstr "Contenu de la démonstration"
+
+#: inc/theme-manager.php:58
+msgid "Demo content (.xml file). All you have to do is to navigate in Tools section from dashboard -> import -> WordPress (importer), the last one. After than run the importer and browse for the xml file in your computer."
+msgstr "Contenu de démonstration (fichier .xml). Tout ce que vous devez faire est de naviguer dans la section Outils du tableau de bord -> importer -> WordPress (importateur), le dernier. Après l'exécution de l'importateur, recherchez le fichier xml dans votre ordinateur."
+
+#: inc/theme-manager.php:58
+msgid "Technical support"
+msgstr "Support technique"
+
+#: inc/theme-manager.php:58
+msgid "You will receive have acces to our forum for tehnical support"
+msgstr "Vous recevrez un accès à notre forum pour un support technique"
+
+#: inc/theme-manager.php:58
+msgid "Updates"
+msgstr "Mises à jour"
+
+#: inc/theme-manager.php:58
+msgid "You will have acces to theme updates. The theme will be compatible with all next versions of WordPress."
+msgstr "Vous aurez accès à des mises à jour thématiques. Le thème sera compatible avec toutes les prochaines versions de WordPress."
+
+#: inc/theme-manager.php:80
+msgid "Don't forget to rate us on "
+msgstr "N'oubliez pas de nous évaluer sur "
+
+#: inc/theme-manager.php:81
+msgid "Thank you!"
+msgstr "Je vous remercie!"
+
+#: inc/theme-manager.php:91
+msgid "About theme"
+msgstr "À propos du thème"
+
+#: inc/theme-manager.php:92 inc/theme-manager.php:93
+msgid "Documentation"
+msgstr "Documentation"
+
+#: inc/theme-manager.php:92
+msgid "Support"
+msgstr "Soutien"
+
+#: inc/post-type.php:12,13,15,19
+msgid "Service"
+msgstr "Service"
+
+#: inc/post-type.php:14
+msgid "Services"
+msgstr "Les Services"
+
+#: inc/post-type.php:16
+msgid "A custom post type"
+msgstr "Un type de message personnalisé"
+
+#: inc/post-type.php:47,49
+msgid "Value"
+msgstr "Valeur"
+
+#: inc/post-type.php:46,53
+msgid "Values"
+msgstr "Les valeurs"
+
+#: inc/post-type.php:80,82,87
+msgid "Team"
+msgstr "Équipe"
+
+#: inc/post-type.php:81,83
+msgid "Member"
+msgstr "Membre"
+
+#: inc/post-type.php:115,117
+msgid "Partner"
+msgstr "Partenaire"
+
+#: inc/post-type.php:114,116,121
+msgid "Partners"
+msgstr "Les partenaires"
+
+#: inc/post-type.php:148,150,155
+msgid "Timeline"
+msgstr "Chronologie"
+
+#: inc/post-type.php:183,185
+msgid "Counter"
+msgstr "Compteur"
+
+#: inc/post-type.php:182,184,189
+msgid "Counters"
+msgstr "Compteurs"
+
+#: inc/post-type.php:217,219
+msgid "Testimonial"
+msgstr "Témoignage"
+
+#: inc/post-type.php:216,218,223
+msgid "Testimonials"
+msgstr "Témoignages"
+
+#: inc/post-type.php:267,269
+msgid "Slide"
+msgstr "Faire glisser"
+
+#: inc/post-type.php:266,268,273
+msgid "Slides"
+msgstr "Diapositives"
+
+#: inc/post-type.php:317,319
+msgid "Folder"
+msgstr "Dossier"
+
+#: inc/post-type.php:316,318,323
+msgid "Portfolio"
+msgstr "Portefeuille"
+
+#: widgets/contact.php:11
+msgid "Shows contact details and Google Maps embed code"
+msgstr "Affiche les coordonnées et le code d'intégration de Google Maps"
+
+#: widgets/contact.php:12
+msgid "Home Page Builder: Contact"
+msgstr "Page d'accueil Constructeur: Contact"
+
+#: widgets/contact.php:33
+msgid "In order to display this widget, you must fill the following fields"
+msgstr "Pour afficher ce widget, vous devez remplir les champs suivants"
+
+#: widgets/contact.php:45
+msgid "Street and number"
+msgstr "Rue et numéro"
+
+#: widgets/contact.php:45
+msgid "Locality"
+msgstr "Localité"
+
+#: widgets/contact.php:47
+msgid "Region"
+msgstr "Région"
+
+#: widgets/contact.php:47
+msgid "Postal code"
+msgstr "Code postal"
+
+#: widgets/contact.php:47
+msgid "Opening hours"
+msgstr "Heures d'ouverture"
+
+#: widgets/contact.php:47
+msgid "Paste here the iframe code of your Google location"
+msgstr "Collez ici le code iframe de votre emplacement Google"
+
+#: widgets/contact.php:47
+msgid "Add 100% to the height and width attributes in the iframe code"
+msgstr "Ajoutez 100% aux attributs hauteur et largeur dans le code iframe"
+
+#: widgets/counters.php:11
+msgid "Shows the counters"
+msgstr "Affiche les compteurs"
+
+#: widgets/counters.php:12
+msgid "Home Page Builder: Counters"
+msgstr "Page d'accueil Constructeur: Compteurs"
+
+#: widgets/counters.php:22 #: widgets/team.php:53 widgets/services.php:27
+#: widgets/slider.php:21
+msgid "In order to display this widget, you must first add some content on the appropriate section"
+msgstr "Pour afficher ce widget, vous devez d'abord ajouter du contenu sur la section appropriée"
+
+#: widgets/counters.php:24
+msgid "Select the page to which it was assigned Counters Page Template"
+msgstr "Sélectionnez la page à laquelle elle a été affectée."
+
+#: widgets/counters.php:30 #: widgets/partners.php:59 widgets/portofolio.php:39
+#: widgets/services.php:37
+msgid "Choose the number of columns to show"
+msgstr "Choisissez le nombre de colonnes à afficher"
+
+#: widgets/counters.php:20
+msgid "Shows the team"
+msgstr "Affiche l'équipe"
+
+#: widgets/counters.php:21
+msgid "Home Page Builder: Team"
+msgstr "Page d'accueil Constructeur: L'équipe"
+
+#: widgets/team.php:55
+msgid "Select the page to which it was assigned Team Page Template"
+msgstr "Sélectionnez la page à laquelle il a été affecté Modèle de page d'équipe"
+
+#: widgets/team.php:61 #: widgets/partners.php:32 widgets/portofolio.php:37
+#: widgets/services.php:35 widgets/values.php:35
+msgid "Number of posts to show (-1 to show all of them)"
+msgstr "Nombre de messages à afficher (-1 pour les afficher tous)"
+
+#: widgets/team.php:71
+msgid "Button text"
+msgstr "Texte du bouton"
+
+#: widgets/team.php:72 #: widgets/portfolio.php:151
+msgid "Show all"
+msgstr "Montre tout"
+
+#: widgets/team.php:73
+msgid "The button will be displayed if number of posts from section is greather than number of posts to show"
+msgstr "Le bouton sera affiché si le nombre de messages de la section est supérieur au nombre de messages à afficher"
+
+#: widgets/team.php:78
+msgid "Title Color"
+msgstr "Titre Couleur"
+
+#: widgets/team.php:105
+msgid "Background Image"
+msgstr "Image de fond"
+
+#: widgets/partners.php:20
+msgid "Shows the partners"
+msgstr "Montre les partenaires"
+
+#: widgets/partners.php:21
+msgid "Home Page Builder: Partners"
+msgstr "Page d'accueil Constructeur: Les partenaires"
+
+#: widgets/partners.php:26
+msgid "Select the page to which it was assigned Partners Page Template"
+msgstr "Sélectionnez la page à laquelle elle a été attribuée."
+
+#: widgets/portfolio.php:11
+msgid "Shows the portfolio"
+msgstr "Affiche le portefeuille"
+
+#: widgets/portfolio:12
+msgid "Home Page Builder: Portfolio"
+msgstr "Page d'accueil Constructeur: Portefeuille"
+
+#: widgets/portfolio.php:26
+msgid "Select the page to which it was assigned Portfolio Page Template"
+msgstr "électionnez la page à laquelle il a été affecté Modèle de page Portfolio"
+
+#: widgets/partners.php:35 #: widgets/team.php:57 widgets/counters.php:29
+msgid "Fill meta description (in page edit) to show some text after the section title"
+msgstr "Remplir la méta-description (dans la modification de la page) pour afficher du texte après le titre de la section"
+
+#: widgets/portfolio.php:46 #: widgets/services.php:44
+msgid "Enable links?"
+msgstr "Activer les liens?"
+
+#: widgets/partners.php:11
+msgid "Shows the services"
+msgstr "Affiche les services"
+
+#: widgets/partners.php:12
+msgid "Home Page Builder: Services"
+msgstr "Page d'accueil Constructeur: Les services"
+
+#: widgets/services.php:29
+msgid "Select the page to which it was assigned Services Page Template"
+msgstr "Sélectionnez la page à laquelle elle a été affectée."
+
+#: widgets/services.php:35
+msgid "If you set the featured image to the selected page, that image it will shown as section background"
+msgstr "Si vous réglez l'image en vedette sur la page sélectionnée, cette image sera affichée comme arrière-plan de la section"
+
+#: widgets/testimonials.php:11
+msgid "Shows the testimonials"
+msgstr "Affiche les témoignages"
+
+#: widgets/testimonials.php:12
+msgid "Home Page Builder: Testimonials"
+msgstr "Page d'accueil Constructeur: Les témoignages"
+
+#: widgets/testimonials.php:26
+msgid "Select the page to which it was assigned Testimonials Page Template"
+msgstr "Sélectionnez la page à laquelle il a été attribué Témoignages Page Template"
+
+#: widgets/timeline.php:11
+msgid "Shows the timeline"
+msgstr "Affiche la chronologie"
+
+#: widgets/timeline.php:12
+msgid "Home Page Builder: Timeline"
+msgstr "Page d'accueil Constructeur: Chronologie"
+
+#: widgets/timeline.php:25
+msgid "Select the page to which it was assigned Timeline Page Template"
+msgstr "Sélectionnez la page à laquelle il a été affecté Modèle de page de calendrier"
+
+#: widgets/values.php:11
+msgid "Shows the values"
+msgstr "Affiche les valeurs"
+
+#: widgets/values.php:12
+msgid "Home Page Builder: Values"
+msgstr "Page d'accueil Constructeur: Les valeurs"
+
+#: widgets/values.php:25
+msgid "Select the page to which it was assigned Values Page Template"
+msgstr "Sélectionnez la page à laquelle elle a été affectée. Valeurs Modèle de page"
+
+#: widgets/page.php:19
+msgid "Shows a page content"
+msgstr "Affiche un contenu de page"
+
+#: widgets/page.php:20
+msgid "Home Page Builder: Call-to-action"
+msgstr "Page d'accueil Constructeur: Appel à l'action"
+
+#: widgets/page.php:50
+msgid "Select the page to show"
+msgstr "Sélectionnez la page à afficher"
+
+#: widgets/page.php:169
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: woocommerce/single-product-reviews.php:31
+msgid "There are no reviews yet"
+msgstr "Il n&rsquo;y pas encore d&rsquo;avis."
+
+#: woocommerce/single-product-reviews.php:43
+msgid "Add a review"
+msgstr "Ajouter un Avis"
+
+#: woocommerce/single-product-reviews.php:43
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Be the first to review &ldquo;%s&rdquo;"
+
+#: woocommerce/single-product-reviews.php:44
+msgid "Leave a Reply to %s"
+msgstr "Laisser une Réponse à %s"
+
+#: woocommerce/single-product-reviews.php:48
+msgid "Name*"
+msgstr "Nom*"
+
+#: woocommerce/single-product-reviews.php:49
+msgid "E-mail*"
+msgstr "E-mail*"
+
+#: woocommerce/single-product-reviews.php:51
+msgid "Submit"
+msgstr "Soumettre"
+
+#: woocommerce/single-product-reviews.php:56
+msgid "You must be <a href=\"%s\">logged in</a> to post a review"
+msgstr "Vous devez être <a href=\"%s\">identifié</a> pour publier un avis"
+
+#: woocommerce/single-product-reviews.php:59,68
+msgid "Your Rating"
+msgstr "Votre vote"
+
+#: woocommerce/single-product-reviews.php:60
+msgid "Rate&hellip;"
+msgstr "Taux&hellip;"
+
+#: woocommerce/single-product-reviews.php:61
+msgid "Perfect"
+msgstr "Parfait"
+
+#: woocommerce/single-product-reviews.php:62
+msgid "Good"
+msgstr "Bon"
+
+#: woocommerce/single-product-reviews.php:63
+msgid "Average"
+msgstr "Moyen"
+
+#: woocommerce/single-product-reviews.php:64
+msgid "Not that bad"
+msgstr "Pas mal"
+
+#: woocommerce/single-product-reviews.php:65
+msgid "Very poor"
+msgstr "Très mauvais"
+
+#: woocommerce/single-product-reviews.php:111
+msgid "Only logged in customers who have purchased this product may leave a review"
+msgstr "Seulement les clients connectés ayant acheté ce produit peuvent laisser un avis"

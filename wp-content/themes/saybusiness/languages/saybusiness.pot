@@ -1,0 +1,793 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"POT-Revision-Date: 2017-08-13 23:10+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"X-Generator: Poedit 2.0.1\n"
+"Language: ro\n"
+"Project-Id-Version: SayBusiness\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"PO-Revision-Date: \n"
+
+#. Name of the theme
+msgid "SayBusiness"
+msgstr ""
+
+#. Description of the theme
+msgid "SayBusiness is a fully responsive and customizable WordPress theme designed for any type of business. This theme makes your website to look awesome. It has Bootstrap grid for a harmonious fluid and retina ready."
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:184 template-parts/content.php:28
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: image.php:84 template-parts/content-page.php:37
+#: template-parts/content-search.php:28 template-parts/content-search.php:43
+#: template-parts/content-single.php:45 template-parts/content.php:49
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: searchform.php:16
+msgid "Search"
+msgstr ""
+
+#: searchform.php:14
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:13
+msgid "Search for:"
+msgstr ""
+
+#: footer.php:28
+msgid "Footer Social links Menu"
+msgstr ""
+
+#: footer.php:17
+msgid "Footer Primary Menu"
+msgstr ""
+
+#: functions.php:158
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: template-parts/content.php:14
+msgid "Featured"
+msgstr ""
+
+#: template-parts/content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/biography.php:33
+msgid "View all posts by %s"
+msgstr ""
+
+#: template-parts/biography.php:28
+msgid "Author:"
+msgstr ""
+
+#: single.php:38
+msgid "Previous post:"
+msgstr ""
+
+#: single.php:37
+msgid "Previous"
+msgstr ""
+
+#: single.php:35
+msgid "Next post:"
+msgstr ""
+
+#: single.php:34
+msgid "Next"
+msgstr ""
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/template-tags.php:106
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr ""
+
+#: inc/template-tags.php:98
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr ""
+
+#: inc/template-tags.php:95 inc/template-tags.php:103
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:79
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr ""
+
+#: inc/template-tags.php:38
+msgctxt "Used before post format."
+msgid "Format"
+msgstr ""
+
+#: inc/template-tags.php:50
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:25
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr ""
+
+#: inc/customizer.php:172
+msgid "Text Color"
+msgstr ""
+
+#: inc/customizer.php:160
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer.php:145
+msgid "Background Color"
+msgstr ""
+
+#: image.php:102 single.php:29
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr ""
+
+#: inc/back-compat.php:41 inc/back-compat.php:53 inc/back-compat.php:68
+msgid "SayBusiness requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again."
+msgstr ""
+
+#: image.php:73
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#: image.php:56 template-parts/content-page.php:23
+#: template-parts/content-single.php:25 template-parts/content.php:33
+msgid "Pages:"
+msgstr ""
+
+#: image.php:25
+msgid "Next Image"
+msgstr ""
+
+#: image.php:24
+msgid "Previous Image"
+msgstr ""
+
+#: header.php:47
+msgid "Menu"
+msgstr ""
+
+#: header.php:27
+msgid "Skip to content"
+msgstr ""
+
+#: functions.php:71
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:80
+msgid "Home Page"
+msgstr ""
+
+#: functions.php:82
+msgid "Build your Homepage with widgets"
+msgstr ""
+
+#: functions.php:89
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:98
+msgid "Contact Page Sidebar"
+msgstr ""
+
+#: functions.php:107
+msgid "Multi language (header)"
+msgstr ""
+
+#: functions.php:107
+msgid "Add here the multi-language switcher widget"
+msgstr ""
+
+#: functions.php:89 header.php:62
+msgid "Social links Menu"
+msgstr ""
+
+#: functions.php:88 header.php:51
+msgid "Primary Menu"
+msgstr ""
+
+#: footer.php:51
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: archive.php:51 image.php:60 index.php:48 search.php:39
+#: template-parts/content-page.php:27 template-parts/content-single.php:29
+#: template-parts/content.php:37
+msgid "Page"
+msgstr ""
+
+#: archive.php:50 index.php:47 search.php:38
+msgid "Next page"
+msgstr ""
+
+#: archive.php:49 index.php:46 search.php:37
+msgid "Previous page"
+msgstr ""
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#. Author URI of the theme
+#: footer.php:51
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: inc/metabox.php:28,94
+msgid "Add icon"
+msgstr ""
+
+#: inc/metabox.php:68,134,200,336,401
+msgid "Example"
+msgstr ""
+
+#: inc/metabox.php:68,134,200,336,401
+msgid "Full list of icons"
+msgstr ""
+
+#: inc/metabox.php:70
+msgid "If you add a featured image it will override this icon"
+msgstr ""
+
+#: inc/metabox.php:160,271,491
+msgid "Website"
+msgstr ""
+
+#: inc/metabox.php:226,362,427
+msgid "Details"
+msgstr ""
+
+#: inc/metabox.php:269
+msgid "Position in company"
+msgstr ""
+
+#: inc/metabox.php:297
+msgid "Milestone"
+msgstr ""
+
+#: inc/metabox.php:336
+msgid "Write the business plan"
+msgstr ""
+
+#: inc/metabox.php:481
+msgid "Client"
+msgstr ""
+
+#: inc/metabox.php:475
+msgid "Address"
+msgstr ""
+
+#: inc/metabox.php:477
+msgid "Phone"
+msgstr ""
+
+#: inc/metabox.php:479
+msgid "Fax"
+msgstr ""
+
+#: inc/metabox.php:481
+msgid "Email"
+msgstr ""
+
+#: inc/page-template.php:38
+msgid "Page Template"
+msgstr ""
+
+#: inc/theme-manager.php:25
+msgid "About the theme"
+msgstr ""
+
+#: inc/theme-manager.php:27
+msgid "Supported plugins"
+msgstr ""
+
+#: inc/theme-manager.php:37
+msgid "Contact us"
+msgstr ""
+
+#: inc/theme-manager.php:29
+msgid "Upgrade PRO"
+msgstr ""
+
+#: inc/theme-manager.php:44
+msgid "All you have to do is"
+msgstr ""
+
+#: inc/theme-manager.php:46
+msgid "Write some good content"
+msgstr ""
+
+#: inc/theme-manager.php:47
+msgid "Build the Home Page with widgets in Apperarance -> Widgets -> Home Page"
+msgstr ""
+
+#: inc/theme-manager.php:48
+msgid "Use page templates"
+msgstr ""
+
+#: inc/theme-manager.php:49
+msgid "Build the menus (Primary Menu and Social links Menu)"
+msgstr ""
+
+#: inc/theme-manager.php:50
+msgid "Install supported plugins, if you need"
+msgstr ""
+
+#: inc/theme-manager.php:51
+msgid "Activate your website for search engines indexing in Settings -> Reading"
+msgstr ""
+
+#: inc/theme-manager.php:54
+msgid "Or upload the demo content available for free"
+msgstr ""
+
+#: inc/theme-manager.php:57
+msgid "The theme is fully compatible with this following free plugins"
+msgstr ""
+
+#: inc/theme-manager.php:58
+msgid "Buy PRO version for 49 &euro; / year"
+msgstr ""
+
+#: inc/theme-manager.php:58
+msgid "Check demo at:"
+msgstr ""
+ 
+#: inc/theme-manager.php:58
+msgid "PRO version features / services:"
+msgstr ""
+ 
+#: inc/theme-manager.php:58
+msgid "Custom post type"
+msgstr ""
+ 
+#: inc/theme-manager.php:58
+msgid "8 custom post type (services, team, values, counters, timeline, partners, testimonials, portfolio) easy to use"
+msgstr ""
+ 
+#: inc/theme-manager.php:58
+msgid "Page templates for every custom post type"
+msgstr ""
+ 
+#: inc/theme-manager.php:58
+msgid "Widgets for every custom post type to build pages with sections"
+msgstr ""
+ 
+#: inc/theme-manager.php:58
+msgid "Demo content"
+msgstr ""
+ 
+#: inc/theme-manager.php:58
+msgid "Demo content (.xml file). All you have to do is to navigate in Tools section from dashboard -> import -> WordPress (importer), the last one. After than run the importer and browse for the xml file in your computer."
+msgstr ""
+ 
+#: inc/theme-manager.php:58
+msgid "Technical support"
+msgstr ""
+ 
+#: inc/theme-manager.php:58
+msgid "You will receive have acces to our forum for tehnical support"
+msgstr ""
+  
+#: inc/theme-manager.php:58
+msgid "Updates"
+msgstr ""
+  
+#: inc/theme-manager.php:58
+msgid "You will have acces to theme updates. The theme will be compatible with all next versions of WordPress."
+msgstr ""
+ 
+#: inc/theme-manager.php:76
+msgid "Don't forget to rate us on "
+msgstr ""
+
+#: inc/theme-manager.php:77
+msgid "Thank you!"
+msgstr ""
+
+#: inc/theme-manager.php:91
+msgid "About theme"
+msgstr ""
+
+#: inc/theme-manager.php:92 inc/theme-manager.php:93
+msgid "Documentation"
+msgstr ""
+
+#: inc/theme-manager.php:93
+msgid "Support"
+msgstr ""
+
+#: inc/post-type.php:12,13,15,19
+msgid "Service"
+msgstr ""
+
+#: inc/post-type.php:14
+msgid "Services"
+msgstr ""
+
+#: inc/post-type.php:16
+msgid "A custom post type"
+msgstr ""
+
+#: inc/post-type.php:47,49
+msgid "Value"
+msgstr ""
+
+#: inc/post-type.php:46,53
+msgid "Values"
+msgstr ""
+
+#: inc/post-type.php:80,82,87
+msgid "Team"
+msgstr ""
+
+#: inc/post-type.php:81,83
+msgid "Member"
+msgstr ""
+
+#: inc/post-type.php:115,117
+msgid "Partner"
+msgstr ""
+
+#: inc/post-type.php:114,116,121
+msgid "Partners"
+msgstr ""
+
+#: inc/post-type.php:148,150,155
+msgid "Timeline"
+msgstr ""
+
+#: inc/post-type.php:183,185
+msgid "Counter"
+msgstr ""
+
+#: inc/post-type.php:182,184,189
+msgid "Counters"
+msgstr ""
+
+#: inc/post-type.php:217,219
+msgid "Testimonial"
+msgstr ""
+
+#: inc/post-type.php:216,218,223
+msgid "Testimonials"
+msgstr ""
+
+#: inc/post-type.php:267,269
+msgid "Slide"
+msgstr ""
+
+#: inc/post-type.php:266,268,273
+msgid "Slides"
+msgstr ""
+
+#: inc/post-type.php:317,319
+msgid "Folder"
+msgstr ""
+
+#: inc/post-type.php:316,318,323
+msgid "Portfolio"
+msgstr ""
+
+#: widgets/contact.php:11
+msgid "Shows contact details and Google Maps embed code"
+msgstr ""
+
+#: widgets/contact.php:12
+msgid "Home Page Builder: Contact"
+msgstr ""
+
+#: widgets/contact.php:33
+msgid "In order to display this widget, you must fill the following fields"
+msgstr ""
+
+#: widgets/contact.php:45
+msgid "Street and number"
+msgstr ""
+
+#: widgets/contact.php:45
+msgid "Locality"
+msgstr ""
+
+#: widgets/contact.php:47
+msgid "Region"
+msgstr ""
+
+#: widgets/contact.php:47
+msgid "Postal code"
+msgstr ""
+
+#: widgets/contact.php:47
+msgid "Opening hours"
+msgstr ""
+
+#: widgets/contact.php:47
+msgid "Paste here the iframe code of your Google location"
+msgstr ""
+
+#: widgets/contact.php:47
+msgid "Add 100% to the height and width attributes in the iframe code"
+msgstr ""
+
+#: widgets/counters.php:11
+msgid "Shows the counters"
+msgstr ""
+
+#: widgets/counters.php:12
+msgid "Home Page Builder: Counters"
+msgstr ""
+
+#: widgets/counters.php:22 #: widgets/team.php:53 widgets/services.php:27
+#: widgets/slider.php:21
+msgid "In order to display this widget, you must first add some content on the appropriate section"
+msgstr ""
+
+#: widgets/counters.php:24
+msgid "Select the page to which it was assigned Counters Page Template"
+msgstr ""
+
+#: widgets/counters.php:30 #: widgets/partners.php:59 widgets/portofolio.php:39
+#: widgets/services.php:37
+msgid "Choose the number of columns to show"
+msgstr ""
+
+#: widgets/counters.php:20
+msgid "Shows the team"
+msgstr ""
+
+#: widgets/counters.php:21
+msgid "Home Page Builder: Team"
+msgstr ""
+
+#: widgets/team.php:55
+msgid "Select the page to which it was assigned Team Page Template"
+msgstr ""
+
+#: widgets/team.php:61 #: widgets/partners.php:32 widgets/portofolio.php:37
+#: widgets/services.php:35 widgets/values.php:35
+msgid "Number of posts to show (-1 to show all of them)"
+msgstr ""
+
+#: widgets/team.php:71
+msgid "Button text"
+msgstr ""
+
+#: widgets/team.php:72 #: widgets/portfolio.php:151
+msgid "Show all"
+msgstr ""
+
+#: widgets/team.php:73
+msgid "The button will be displayed if number of posts from section is greather than number of posts to show"
+msgstr ""
+
+#: widgets/team.php:78
+msgid "Title Color"
+msgstr ""
+
+#: widgets/team.php:105
+msgid "Background Image"
+msgstr ""
+
+#: widgets/partners.php:20
+msgid "Shows the partners"
+msgstr ""
+
+#: widgets/partners.php:21
+msgid "Home Page Builder: Partners"
+msgstr ""
+
+#: widgets/partners.php:26
+msgid "Select the page to which it was assigned Partners Page Template"
+msgstr ""
+
+#: widgets/portfolio.php:11
+msgid "Shows the portfolio"
+msgstr ""
+
+#: widgets/portfolio:12
+msgid "Home Page Builder: Portfolio"
+msgstr ""
+
+#: widgets/portfolio.php:26
+msgid "Select the page to which it was assigned Portfolio Page Template"
+msgstr ""
+
+#: widgets/partners.php:35 #: widgets/team.php:57 widgets/counters.php:29
+msgid "Fill meta description (in page edit) to show some text after the section title"
+msgstr ""
+
+#: widgets/portfolio.php:46 #: widgets/services.php:44
+msgid "Enable links?"
+msgstr ""
+
+#: widgets/partners.php:11
+msgid "Shows the services"
+msgstr ""
+
+#: widgets/partners.php:12
+msgid "Home Page Builder: Services"
+msgstr ""
+
+#: widgets/services.php:29
+msgid "Select the page to which it was assigned Services Page Template"
+msgstr ""
+
+#: widgets/services.php:35
+msgid "If you set the featured image to the selected page, that image it will shown as section background"
+msgstr ""
+
+#: widgets/testimonials.php:11
+msgid "Shows the testimonials"
+msgstr ""
+
+#: widgets/testimonials.php:12
+msgid "Home Page Builder: Testimonials"
+msgstr ""
+
+#: widgets/testimonials.php:26
+msgid "Select the page to which it was assigned Testimonials Page Template"
+msgstr ""
+
+#: widgets/timeline.php:11
+msgid "Shows the timeline"
+msgstr ""
+
+#: widgets/timeline.php:12
+msgid "Home Page Builder: Timeline"
+msgstr ""
+
+#: widgets/timeline.php:25
+msgid "Select the page to which it was assigned Timeline Page Template"
+msgstr ""
+
+#: widgets/values.php:11
+msgid "Shows the values"
+msgstr ""
+
+#: widgets/values.php:12
+msgid "Home Page Builder: Values"
+msgstr ""
+
+#: widgets/values.php:25
+msgid "Select the page to which it was assigned Values Page Template"
+msgstr ""
+
+#: widgets/page.php:19
+msgid "Shows a page content"
+msgstr ""
+
+#: widgets/page.php:20
+msgid "Home Page Builder: Call-to-action"
+msgstr ""
+
+#: widgets/page.php:50
+msgid "Select the page to show"
+msgstr ""
+
+#: widgets/page.php:169
+msgid "Read more"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:31
+msgid "There are no reviews yet"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:43
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:43
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:44
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:48
+msgid "Name*"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:49
+msgid "E-mail*"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:51
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:56
+msgid "You must be <a href=\"%s\">logged in</a> to post a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:59,68
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:60
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:61
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:62
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:64
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:65
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:111
+msgid "Only logged in customers who have purchased this product may leave a review"
+msgstr ""

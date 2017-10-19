@@ -1,0 +1,49 @@
+.saybusiness-info-container .form-table th {width: 0px;}
+.saybusiness-info-container { background-color: #fff; margin-right: 20px; padding: 25px 25px 25px; margin-top: 20px; border: 1px solid #e5e5e5; text-align: justify;min-height: 460px;}
+.saybusiness-info-container h2 {padding-left: 20px; }
+.saybusiness-info-container p.submit {padding-left: 20px;}
+.saybusiness-info-container::before,
+.saybusiness-info-container::after {content: ''; clear: both; display: table;}
+.saybusiness-info-container .info-title { margin: 0 0 15px; text-transform: uppercase;}
+.saybusiness-info-container .info-icon { font-size: 24px; width: auto; height: auto;}
+.saybusiness-info-container .info-text { text-transform: uppercase; margin-top: 8px;}
+.saybusiness-info-container .info-text a { color: #333; text-decoration: none;}
+.saybusiness-info-container .info-text a:hover { color: #00b9eb;}
+.saybusiness-info-blocks .info-blocks { background-color: #fff; margin: 20px auto; padding: 25px; margin-right: 20px; border: 1px solid #e5e5e5; text-align: center; min-height: 120px;}
+.saybusiness-info-blocks .info-block { float: left; width: 25%; border: 1px solid #eaeaea; padding: 15px; margin: 1%; background-color: #f7f7f7; text-align: center;} 
+.saybusiness-info-container .wp-editor-area {margin: 1px; padding: 1px;}
+.saybusiness-info-container .main1 {min-width: 310px; max-width: 800px; padding: 10px; margin: 0 auto; background: #fff; float:left;}
+.saybusiness-info-container section {display: none; padding: 20px 0 0; border-top: 1px solid #ddd;}
+.saybusiness-info-container input#tab1 {display: none;}
+.saybusiness-info-container input#tab2 {display: none;}
+.saybusiness-info-container input#tab3 {display: none;}
+.saybusiness-info-container input#tab4 {display: none;}
+.saybusiness-info-container .contact_seo label {width: 150px; padding: 0px; text-align:left;}
+.saybusiness-info-container .contact_seo input {width: 70%;}
+.saybusiness-info-container span { margin-right: 8px;}
+.saybusiness-info-container .dashicons, 
+.saybusiness-info-container .dashicons-before::before {margin-top: 0px;}
+.saybusiness-info-container b, 
+.saybusiness-info-container strong{margin-bottom: 10px; padding-bottom: 10px;}
+.saybusiness-info-container hr {margin-bottom: 10px;}
+.saybusiness-info-container label {display: inline-block; margin: 0 0 -1px; padding: 10px 20px; font-weight: 400; text-align: center; color: #bbb; border: 1px solid transparent;}
+.saybusiness-info-container label:before {font-family: fontawesome; font-weight: normal; margin-right: 10px;}
+.saybusiness-info-container label:hover {color: #888; cursor: pointer;}
+.saybusiness-info-container input:checked + label {color: #555; border: 1px solid #ddd; border-top: 2px solid orange; border-bottom: 1px solid #fff;}
+.saybusiness-info-container #tab1:checked ~ #content1,
+.saybusiness-info-container #tab2:checked ~ #content2,
+.saybusiness-info-container #tab3:checked ~ #content3,
+.saybusiness-info-container #tab4:checked ~ #content4 {display: block;}
+.saybusiness-info-container #content3 strong {text-transform: uppercase;}
+.saybusiness-info-container .form-table td p  strong{margin-top: 10px; margin-bottom: 10px; line-height: 2;}
+.saybusiness-info-container #content3 img {display: block;}
+
+@media screen and (max-width: 650px) {
+ .saybusiness-info-container label {font-size: 0;}
+ .saybusiness-info-container label:before {margin: 0; font-size: 18px;} 
+ .saybusiness-info-container .info-block {padding: 7px;}
+ .saybusiness-info-container .info-text {display: none;}
+}
+@media screen and (max-width: 420px) {
+ .saybusiness-info-container label {padding: 15px;} 
+}
